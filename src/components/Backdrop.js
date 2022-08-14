@@ -1,5 +1,5 @@
 function Backdrop() {
-  return <div className="modal"></div>;
+  return <div className="backdrop"></div>;
 }
 
 export default Backdrop;

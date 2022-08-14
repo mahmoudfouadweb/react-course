@@ -1,6 +1,5 @@
 import Todo from './components/Todo';
-import Modal from './components/Modal';
-import Backdrop from './components/Backdrop';
+
 function App() {
   return (
     <div>
@@ -9,8 +8,6 @@ function App() {
       <Todo text="css" btn="open" />
       <Todo text="html" btn="close" />
       <Todo text="css" btn="open" />
-      <Modal />
-      <Backdrop />
     </div>
   );
 }
